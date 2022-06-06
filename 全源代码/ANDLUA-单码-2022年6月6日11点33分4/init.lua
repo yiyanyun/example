@@ -1,0 +1,23 @@
+--名称
+appname="易验云"
+--版本号
+appver="1.0"
+--版本
+appcode="1"
+--SDK
+appsdk="15"
+--包名
+packagename="com.mycompany.myapp1"
+--调试模式
+debugmode=true
+--应用权限
+user_permission={
+  "INTERNET",
+  "READ_PHONE_STATE",
+  "WRITE_EXTERNAL_STORAGE",
+  "WRITE_SETTINGS",
+}
+--跳过编译
+skip_compilation={
+
+}
