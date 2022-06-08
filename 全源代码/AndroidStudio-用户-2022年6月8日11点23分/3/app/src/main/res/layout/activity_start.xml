@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Start">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="212dp"
+            android:layout_weight="1"
+            android:background="@drawable/splash" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:src="@drawable/start_buttom"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="30dp"
+        android:layout_gravity="right"
+        android:text="进入"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        android:textColor="#ffffffff"
+        android:textSize="14dp"
+        android:background="@drawable/but_bg_skip"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"/>
+</FrameLayout>
